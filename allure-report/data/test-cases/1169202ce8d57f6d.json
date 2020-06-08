@@ -1,0 +1,46 @@
+{
+  "uid" : "1169202ce8d57f6d",
+  "name" : "testing alerts - accept",
+  "fullName" : "alerts testing.testing alerts - accept",
+  "historyId" : "de810527254ec4f57dc622e29d9ac54e",
+  "time" : {
+    "start" : 1587798207595,
+    "stop" : 1587798207595,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testClass",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "testing alerts - accept"
+  }, {
+    "name" : "package",
+    "value" : "alerts testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1169202ce8d57f6d.json",
+  "parameterValues" : [ ]
+}

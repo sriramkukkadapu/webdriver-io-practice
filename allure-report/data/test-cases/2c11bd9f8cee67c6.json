@@ -1,0 +1,120 @@
+{
+  "uid" : "2c11bd9f8cee67c6",
+  "name" : "main heading exists? ",
+  "fullName" : "blaze page elements handle.main heading exists? ",
+  "historyId" : "693f3df55ed853168f00108d1c49f5a4",
+  "time" : {
+    "start" : 1587192751277,
+    "stop" : 1587192751330,
+    "duration" : 53
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587192751277,
+        "stop" : 1587192751297,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28c47732ef7fe265",
+        "name" : "Request",
+        "source" : "28c47732ef7fe265.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b56455d55a5b3bbe",
+        "name" : "Response",
+        "source" : "b56455d55a5b3bbe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1587192751298,
+        "stop" : 1587192751328,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4209d55644fcfc4",
+        "name" : "Request",
+        "source" : "4209d55644fcfc4.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "37d421030c817b21",
+        "name" : "Response",
+        "source" : "37d421030c817b21.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading exists? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c11bd9f8cee67c6.json",
+  "parameterValues" : [ "chrome" ]
+}

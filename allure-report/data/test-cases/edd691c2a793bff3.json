@@ -1,0 +1,234 @@
+{
+  "uid" : "edd691c2a793bff3",
+  "name" : "check page url",
+  "fullName" : "To Test checkboxes.check page url",
+  "historyId" : "a5c438a5e7cdb9c22d6cf6e5cb4e994f",
+  "time" : {
+    "start" : 1587196956366,
+    "stop" : 1587196958971,
+    "duration" : 2605
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196956400,
+        "stop" : 1587196958871,
+        "duration" : 2471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9ea5ef8e0f67143",
+        "name" : "Request",
+        "source" : "b9ea5ef8e0f67143.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196958872,
+        "stop" : 1587196958953,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a8fbeb360a8bbc2",
+        "name" : "Response",
+        "source" : "3a8fbeb360a8bbc2.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196958953,
+        "stop" : 1587196958970,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4d86336492396bf",
+        "name" : "Response",
+        "source" : "c4d86336492396bf.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8bb4b858f515d8c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587196895113,
+        "stop" : 1587196896989,
+        "duration" : 1876
+      }
+    }, {
+      "uid" : "7637ab73664069eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587196693938,
+        "stop" : 1587196696189,
+        "duration" : 2251
+      }
+    }, {
+      "uid" : "1a87ef8cec454bb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587196647873,
+        "stop" : 1587196649729,
+        "duration" : 1856
+      }
+    }, {
+      "uid" : "e51ec93eefc30eae",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196618813,
+        "stop" : 1587196621502,
+        "duration" : 2689
+      }
+    }, {
+      "uid" : "a262bfbf749df9e3",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196584613,
+        "stop" : 1587196587532,
+        "duration" : 2919
+      }
+    }, {
+      "uid" : "f67176d09e6f1644",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196524098,
+        "stop" : 1587196526827,
+        "duration" : 2729
+      }
+    }, {
+      "uid" : "d519dd65ac39e3c0",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196479561,
+        "stop" : 1587196481991,
+        "duration" : 2430
+      }
+    }, {
+      "uid" : "e87d4f0332ec06c4",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196371621,
+        "stop" : 1587196374262,
+        "duration" : 2641
+      }
+    }, {
+      "uid" : "a4be753e943877be",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://the-internet.herokuapp.com/' to equal 'https://www.amazon.com'",
+      "time" : {
+        "start" : 1587196326651,
+        "stop" : 1587196330152,
+        "duration" : 3501
+      }
+    }, {
+      "uid" : "5a4aa80208ef32c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587196146711,
+        "stop" : 1587196149902,
+        "duration" : 3191
+      }
+    }, {
+      "uid" : "44bf8427bbcc471a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587195902665,
+        "stop" : 1587195906186,
+        "duration" : 3521
+      }
+    }, {
+      "uid" : "f95728de39c74a43",
+      "status" : "broken",
+      "statusDetails" : "browser.getUrl(...).equals is not a function",
+      "time" : {
+        "start" : 1587195865103,
+        "stop" : 1587195868665,
+        "duration" : 3562
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edd691c2a793bff3.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,222 @@
+{
+  "uid" : "68921e505402bbdd",
+  "name" : "main heading displayed in viewPort? ",
+  "fullName" : "blaze page elements handle.main heading displayed in viewPort? ",
+  "historyId" : "703d9e15bc1595775bcd8470f1ea1834",
+  "time" : {
+    "start" : 1587193553361,
+    "stop" : 1587193553468,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587193553361,
+        "stop" : 1587193553440,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52f411c2d14db6d",
+        "name" : "Request",
+        "source" : "52f411c2d14db6d.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "8689b04458f9d091",
+        "name" : "Response",
+        "source" : "8689b04458f9d091.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587193553442,
+        "stop" : 1587193553459,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "334956d25dd73064",
+        "name" : "Request",
+        "source" : "334956d25dd73064.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "508d4281feeb25db",
+        "name" : "Response",
+        "source" : "508d4281feeb25db.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587193553460,
+        "stop" : 1587193553467,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "186ad77214516f52",
+        "name" : "Request",
+        "source" : "186ad77214516f52.json",
+        "type" : "application/json",
+        "size" : 726
+      }, {
+        "uid" : "f77b6ece3b83b4bd",
+        "name" : "Response",
+        "source" : "f77b6ece3b83b4bd.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading displayed in viewPort? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d179fe3d1682ad42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587193490177,
+        "stop" : 1587193490301,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "3677cedf9284d02d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587193435818,
+        "stop" : 1587193436035,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "88b3af0823ef6426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587193421034,
+        "stop" : 1587193421084,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "88ac1c13de2831a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587193408783,
+        "stop" : 1587193408846,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "41412969f386547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587193394885,
+        "stop" : 1587193394932,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "87220718b1cd3600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587192948814,
+        "stop" : 1587192948894,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "b51b463679688bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587192809998,
+        "stop" : 1587192810059,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "6a0aca7009067b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587192751330,
+        "stop" : 1587192751445,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "1a617eb136c5e9e4",
+      "status" : "broken",
+      "statusDetails" : "blazePage.mainHeader.isDisplayedInViewPort is not a function",
+      "time" : {
+        "start" : 1587192732270,
+        "stop" : 1587192732782,
+        "duration" : 512
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68921e505402bbdd.json",
+  "parameterValues" : [ "chrome" ]
+}

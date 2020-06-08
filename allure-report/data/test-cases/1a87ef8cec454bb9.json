@@ -1,0 +1,108 @@
+{
+  "uid" : "1a87ef8cec454bb9",
+  "name" : "check page url",
+  "fullName" : "To Test checkboxes.check page url",
+  "historyId" : "a5c438a5e7cdb9c22d6cf6e5cb4e994f",
+  "time" : {
+    "start" : 1587196647873,
+    "stop" : 1587196649729,
+    "duration" : 1856
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196647938,
+        "stop" : 1587196649718,
+        "duration" : 1780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9fd7ca6179c719d",
+        "name" : "Request",
+        "source" : "b9fd7ca6179c719d.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196649718,
+        "stop" : 1587196649728,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c7dfa7677a993ec",
+        "name" : "Response",
+        "source" : "8c7dfa7677a993ec.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a87ef8cec454bb9.json",
+  "parameterValues" : [ "chrome" ]
+}

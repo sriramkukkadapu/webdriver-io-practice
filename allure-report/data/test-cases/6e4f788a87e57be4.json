@@ -1,0 +1,381 @@
+{
+  "uid" : "6e4f788a87e57be4",
+  "name" : "should click checkboxes",
+  "fullName" : "To Test checkboxes.should click checkboxes",
+  "historyId" : "3e58d8c1c8a03159d65feb909d883747",
+  "time" : {
+    "start" : 1587195868665,
+    "stop" : 1587195874789,
+    "duration" : 6124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587195868666,
+        "stop" : 1587195869054,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43144b3de73432e5",
+        "name" : "Request",
+        "source" : "43144b3de73432e5.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869055,
+        "stop" : 1587195869092,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6744661b47e2b383",
+        "name" : "Request",
+        "source" : "6744661b47e2b383.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "d50937cbd7b187ba",
+        "name" : "Response",
+        "source" : "d50937cbd7b187ba.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587195869100,
+        "stop" : 1587195869117,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6cf5e6dd1a890d7",
+        "name" : "Request",
+        "source" : "e6cf5e6dd1a890d7.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "7f76a7c27a0d5b6b",
+        "name" : "Response",
+        "source" : "7f76a7c27a0d5b6b.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869118,
+        "stop" : 1587195869132,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1367a99f7972e7c1",
+        "name" : "Request",
+        "source" : "1367a99f7972e7c1.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "4d3ace5f4c544f77",
+        "name" : "Response",
+        "source" : "4d3ace5f4c544f77.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d009d4de-3f81-4fa3-bdac-91dffaf40a4f/click",
+      "time" : {
+        "start" : 1587195869137,
+        "stop" : 1587195869610,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869610,
+        "stop" : 1587195869632,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d05a78d2bf7e766",
+        "name" : "Request",
+        "source" : "3d05a78d2bf7e766.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "a813239bef1b2fae",
+        "name" : "Response",
+        "source" : "a813239bef1b2fae.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587195869634,
+        "stop" : 1587195869652,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71e3ba6b6669e87d",
+        "name" : "Request",
+        "source" : "71e3ba6b6669e87d.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "e39b4fc2a3b46fd8",
+        "name" : "Response",
+        "source" : "e39b4fc2a3b46fd8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869652,
+        "stop" : 1587195869677,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce2585a7462e2d05",
+        "name" : "Request",
+        "source" : "ce2585a7462e2d05.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "98cfde051ee1125b",
+        "name" : "Response",
+        "source" : "98cfde051ee1125b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587195869680,
+        "stop" : 1587195869687,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "551594dec222ea63",
+        "name" : "Request",
+        "source" : "551594dec222ea63.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "876546ea7fb5a50d",
+        "name" : "Response",
+        "source" : "876546ea7fb5a50d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869687,
+        "stop" : 1587195869700,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36fd3452e62f3bee",
+        "name" : "Request",
+        "source" : "36fd3452e62f3bee.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "96d98292cef38b3a",
+        "name" : "Response",
+        "source" : "96d98292cef38b3a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/42d4ac73-e97b-43de-99e1-e0ced2ea1543/click",
+      "time" : {
+        "start" : 1587195869701,
+        "stop" : 1587195869750,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587195869750,
+        "stop" : 1587195869766,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34c47525518a2663",
+        "name" : "Request",
+        "source" : "34c47525518a2663.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "458ffcb61b7e4884",
+        "name" : "Response",
+        "source" : "458ffcb61b7e4884.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/42d4ac73-e97b-43de-99e1-e0ced2ea1543/selected",
+      "time" : {
+        "start" : 1587195869767,
+        "stop" : 1587195869783,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b1fea0e00f3d460",
+        "name" : "Response",
+        "source" : "8b1fea0e00f3d460.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click checkboxes"
+  }, {
+    "name" : "package",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e4f788a87e57be4.json",
+  "parameterValues" : [ "chrome" ]
+}

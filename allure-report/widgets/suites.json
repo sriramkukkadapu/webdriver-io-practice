@@ -1,0 +1,114 @@
+{
+  "total" : 13,
+  "items" : [ {
+    "uid" : "de46b1de6a57b79684a5d3e06faf411b",
+    "name" : "page actions features",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "28187ab363f45d6fcbc1adf89b6af623",
+    "name" : "blaze page elements handle",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "1ea692753e60ac0ae4ad9bfb9289de4b",
+    "name" : "drop down test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "9fd0b2cef1290cdc9887c355423f649c",
+    "name" : "alerts testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "159a063d656dc918df44f9bee382919c",
+    "name" : "interaction with web elements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9268bfae4f7a9369720c116d03396487",
+    "name" : "To Test checkboxes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "1f99a9878e83b744325e949e9d9ed0de",
+    "name" : "waitforexists examples",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "dea5400869b8ea674a53062667b84fc9",
+    "name" : "handle application login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "27ba7ea4bc51d8a7bc2bfdc3a12aa7a5",
+    "name" : "Home page elements handle",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fdad1a9dd436db99e7d18b9a89260e4b",
+    "name" : "drag and drop feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "bf0dcce327ac41a2",
+  "name" : "testing alerts - accept",
+  "fullName" : "alerts testing.testing alerts - accept",
+  "historyId" : "de810527254ec4f57dc622e29d9ac54e",
+  "time" : {
+    "start" : 1587798920518,
+    "stop" : 1587798920518,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testClass",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "testing alerts - accept"
+  }, {
+    "name" : "package",
+    "value" : "alerts testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "627ea1b12e57ca18",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587798814242,
+        "stop" : 1587798814243,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3d4019310fb73d66",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587798748176,
+        "stop" : 1587798748176,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d5f266ef4aea747",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587798326037,
+        "stop" : 1587798326037,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1169202ce8d57f6d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587798207595,
+        "stop" : 1587798207595,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf0dcce327ac41a2.json",
+  "parameterValues" : [ ]
+}

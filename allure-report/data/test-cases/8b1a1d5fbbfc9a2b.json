@@ -1,0 +1,192 @@
+{
+  "uid" : "8b1a1d5fbbfc9a2b",
+  "name" : "get texts of all main links",
+  "fullName" : "blaze page elements handle.get texts of all main links",
+  "historyId" : "9b4cf1743052e13d76a2bb2e85e13c11",
+  "time" : {
+    "start" : 1587193551325,
+    "stop" : 1587193551325,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "get texts of all main links"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e14d6f3104a17fa",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587193487647,
+        "stop" : 1587193487647,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1f01906edd9e542e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587193433763,
+        "stop" : 1587193433763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89c017cdc1e996e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587193418851,
+        "stop" : 1587193418851,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3978f253337594e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587193406605,
+        "stop" : 1587193406605,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c098e45350c8228",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587193392584,
+        "stop" : 1587193392584,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6f6c3712ae1ff5d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192946570,
+        "stop" : 1587192946570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8770fd11f6755425",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192807788,
+        "stop" : 1587192807788,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc21a70a6cafcebc",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192747980,
+        "stop" : 1587192747980,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15ae542bf2c737a6",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192730020,
+        "stop" : 1587192730020,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7187bf6b90b7836",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192335046,
+        "stop" : 1587192335046,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "638cd882cdcf3525",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192253435,
+        "stop" : 1587192253435,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d144127d7625b611",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192224729,
+        "stop" : 1587192224729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d890c59095a2164",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192188898,
+        "stop" : 1587192188898,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8dd0e1041693fb8e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192141474,
+        "stop" : 1587192141474,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7df06d019e588f72",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192126140,
+        "stop" : 1587192126141,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "233094d013816b65",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1587192063853,
+        "stop" : 1587192063853,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b1a1d5fbbfc9a2b.json",
+  "parameterValues" : [ ]
+}

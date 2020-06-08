@@ -1,0 +1,91 @@
+{
+  "uid" : "ace6d080f1e9063f",
+  "name" : "perform logout",
+  "fullName" : "handle application login.perform logout",
+  "historyId" : "8b691b696a35bd1176746ae5cb2f1066",
+  "time" : {
+    "start" : 1587202260879,
+    "stop" : 1587202261274,
+    "duration" : 395
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "logoutPage.clickLogOutBtn is not a function",
+  "statusTrace" : "TypeError: logoutPage.clickLogOutBtn is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/login test.js:19:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "logoutPage.clickLogOutBtn is not a function",
+    "statusTrace" : "TypeError: logoutPage.clickLogOutBtn is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/login test.js:19:20)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1587202260883,
+        "stop" : 1587202261274,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce1a9bbcc9547853",
+        "name" : "Screenshot",
+        "source" : "ce1a9bbcc9547853.png",
+        "type" : "image/png",
+        "size" : 112819
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "handle application login"
+  }, {
+    "name" : "testClass",
+    "value" : "handle application login"
+  }, {
+    "name" : "testMethod",
+    "value" : "perform logout"
+  }, {
+    "name" : "package",
+    "value" : "handle application login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ace6d080f1e9063f.json",
+  "parameterValues" : [ "chrome" ]
+}

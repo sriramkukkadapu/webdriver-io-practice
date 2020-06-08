@@ -1,0 +1,114 @@
+{
+  "uid" : "7b305a1c7fb8b1a6",
+  "name" : "main heading enabled? ",
+  "fullName" : "blaze page elements handle.main heading enabled? ",
+  "historyId" : "f22b02ac6aec1ea2aeb5e7675a4712a2",
+  "time" : {
+    "start" : 1587192809763,
+    "stop" : 1587192809962,
+    "duration" : 199
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587192809763,
+        "stop" : 1587192809902,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7c336aba2e687d2",
+        "name" : "Request",
+        "source" : "b7c336aba2e687d2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "e8d94280db62bb58",
+        "name" : "Response",
+        "source" : "e8d94280db62bb58.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/4a25c4e8-298b-4e85-aa90-d20efb5f8493/enabled",
+      "time" : {
+        "start" : 1587192809904,
+        "stop" : 1587192809962,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc75589ee94a90d",
+        "name" : "Response",
+        "source" : "cc75589ee94a90d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading enabled? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b305a1c7fb8b1a6.json",
+  "parameterValues" : [ "chrome" ]
+}

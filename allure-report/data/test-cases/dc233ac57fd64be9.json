@@ -1,0 +1,231 @@
+{
+  "uid" : "dc233ac57fd64be9",
+  "name" : "validate checkbox page header",
+  "fullName" : "To Test checkboxes.validate checkbox page header",
+  "historyId" : "6028713fbebdaaa69f5f623a51e30d7",
+  "time" : {
+    "start" : 1587196149903,
+    "stop" : 1587196150751,
+    "duration" : 848
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196149903,
+        "stop" : 1587196150225,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b61ab813108078d",
+        "name" : "Request",
+        "source" : "2b61ab813108078d.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587196150226,
+        "stop" : 1587196150259,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fcfd5aca456760e",
+        "name" : "Request",
+        "source" : "1fcfd5aca456760e.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "d4b193921a50815b",
+        "name" : "Response",
+        "source" : "d4b193921a50815b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587196150264,
+        "stop" : 1587196150286,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a31800f27b91096",
+        "name" : "Request",
+        "source" : "7a31800f27b91096.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "ad63eecc57943e14",
+        "name" : "Response",
+        "source" : "ad63eecc57943e14.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587196150287,
+        "stop" : 1587196150294,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9fa33fde28b7b89",
+        "name" : "Request",
+        "source" : "f9fa33fde28b7b89.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "e0c332e5ac46f20f",
+        "name" : "Response",
+        "source" : "e0c332e5ac46f20f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0f1cdf0f-b610-407e-8845-3819baf659a5/click",
+      "time" : {
+        "start" : 1587196150296,
+        "stop" : 1587196150710,
+        "duration" : 414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587196150711,
+        "stop" : 1587196150726,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0fc3d8dd92392d4",
+        "name" : "Request",
+        "source" : "b0fc3d8dd92392d4.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "ece1a8046f8393cc",
+        "name" : "Response",
+        "source" : "ece1a8046f8393cc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/7b4084a8-282e-4a1f-863b-ba2013b3c475/text",
+      "time" : {
+        "start" : 1587196150728,
+        "stop" : 1587196150751,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7d19565120d1bcb",
+        "name" : "Response",
+        "source" : "c7d19565120d1bcb.json",
+        "type" : "application/json",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate checkbox page header"
+  }, {
+    "name" : "package",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc233ac57fd64be9.json",
+  "parameterValues" : [ "chrome" ]
+}

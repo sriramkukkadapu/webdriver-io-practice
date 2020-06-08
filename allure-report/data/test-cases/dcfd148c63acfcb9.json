@@ -1,0 +1,46 @@
+{
+  "uid" : "dcfd148c63acfcb9",
+  "name" : "waitforexist example",
+  "fullName" : "waitforexists examples.waitforexist example",
+  "historyId" : "5eed2901dc7ef6a89814fe52916e0fec",
+  "time" : {
+    "start" : 1588510281715,
+    "stop" : 1588510281715,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "waitforexists examples"
+  }, {
+    "name" : "testClass",
+    "value" : "waitforexists examples"
+  }, {
+    "name" : "testMethod",
+    "value" : "waitforexist example"
+  }, {
+    "name" : "package",
+    "value" : "waitforexists examples"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcfd148c63acfcb9.json",
+  "parameterValues" : [ ]
+}

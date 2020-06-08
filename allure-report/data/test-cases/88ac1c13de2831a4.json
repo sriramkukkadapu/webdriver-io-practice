@@ -1,0 +1,147 @@
+{
+  "uid" : "88ac1c13de2831a4",
+  "name" : "main heading displayed in viewPort? ",
+  "fullName" : "blaze page elements handle.main heading displayed in viewPort? ",
+  "historyId" : "703d9e15bc1595775bcd8470f1ea1834",
+  "time" : {
+    "start" : 1587193408783,
+    "stop" : 1587193408846,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587193408783,
+        "stop" : 1587193408798,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9931015511a6afc",
+        "name" : "Request",
+        "source" : "d9931015511a6afc.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "2aed382ebff47e6d",
+        "name" : "Response",
+        "source" : "2aed382ebff47e6d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587193408799,
+        "stop" : 1587193408832,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e79242ca3c53d3d",
+        "name" : "Request",
+        "source" : "3e79242ca3c53d3d.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "e1adcf9a245cb5ff",
+        "name" : "Response",
+        "source" : "e1adcf9a245cb5ff.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587193408832,
+        "stop" : 1587193408846,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82f770028b925a70",
+        "name" : "Request",
+        "source" : "82f770028b925a70.json",
+        "type" : "application/json",
+        "size" : 726
+      }, {
+        "uid" : "ed85d0e82e724f2e",
+        "name" : "Response",
+        "source" : "ed85d0e82e724f2e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading displayed in viewPort? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88ac1c13de2831a4.json",
+  "parameterValues" : [ "chrome" ]
+}

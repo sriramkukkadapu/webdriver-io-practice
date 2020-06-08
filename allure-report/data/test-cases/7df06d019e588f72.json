@@ -1,0 +1,46 @@
+{
+  "uid" : "7df06d019e588f72",
+  "name" : "get texts of all main links",
+  "fullName" : "blaze page elements handle.get texts of all main links",
+  "historyId" : "9b4cf1743052e13d76a2bb2e85e13c11",
+  "time" : {
+    "start" : 1587192126140,
+    "stop" : 1587192126141,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "get texts of all main links"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7df06d019e588f72.json",
+  "parameterValues" : [ ]
+}

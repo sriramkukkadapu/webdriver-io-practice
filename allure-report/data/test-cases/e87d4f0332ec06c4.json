@@ -1,0 +1,133 @@
+{
+  "uid" : "e87d4f0332ec06c4",
+  "name" : "check page url",
+  "fullName" : "To Test checkboxes.check page url",
+  "historyId" : "a5c438a5e7cdb9c22d6cf6e5cb4e994f",
+  "time" : {
+    "start" : 1587196371621,
+    "stop" : 1587196374262,
+    "duration" : 2641
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+  "statusTrace" : "AssertionError: expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/checkbox test.js:7:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'",
+    "statusTrace" : "AssertionError: expected 'https://www.amazon.com/' to equal 'https://www.amazon.com'\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/checkbox test.js:7:34)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196371714,
+        "stop" : 1587196373458,
+        "duration" : 1744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98460388f2ade6dc",
+        "name" : "Request",
+        "source" : "98460388f2ade6dc.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1587196373458,
+        "stop" : 1587196373490,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1c21df9952f78a2",
+        "name" : "Response",
+        "source" : "b1c21df9952f78a2.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1587196373491,
+        "stop" : 1587196374261,
+        "duration" : 770
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8947d705dba05221",
+        "name" : "Screenshot",
+        "source" : "8947d705dba05221.png",
+        "type" : "image/png",
+        "size" : 800098
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "To Test checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e87d4f0332ec06c4.json",
+  "parameterValues" : [ "chrome" ]
+}

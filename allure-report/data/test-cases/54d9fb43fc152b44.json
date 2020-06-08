@@ -1,0 +1,244 @@
+{
+  "uid" : "54d9fb43fc152b44",
+  "name" : "Alert on rediff",
+  "fullName" : "alerts testing.Alert on rediff",
+  "historyId" : "c4cdb21d4c02a4056a5c5b82357bc129",
+  "time" : {
+    "start" : 1587798748176,
+    "stop" : 1587798750292,
+    "duration" : 2116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser is not a function",
+  "statusTrace" : "TypeError: browser is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/alert.test.js:49:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser is not a function",
+    "statusTrace" : "TypeError: browser is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/alert.test.js:49:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587798748247,
+        "stop" : 1587798748918,
+        "duration" : 671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7b7bc8bba4a4635",
+        "name" : "Request",
+        "source" : "f7b7bc8bba4a4635.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587798748919,
+        "stop" : 1587798748993,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9e844885e161d9d",
+        "name" : "Request",
+        "source" : "f9e844885e161d9d.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "8eed1aa36d9471fa",
+        "name" : "Response",
+        "source" : "8eed1aa36d9471fa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587798749000,
+        "stop" : 1587798749051,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb8e641d9d9f405e",
+        "name" : "Request",
+        "source" : "eb8e641d9d9f405e.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "56008d4bcd0f5375",
+        "name" : "Response",
+        "source" : "56008d4bcd0f5375.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587798749053,
+        "stop" : 1587798749111,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c0319f4f3eecbd5",
+        "name" : "Request",
+        "source" : "3c0319f4f3eecbd5.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "3ab9208f8b34aa88",
+        "name" : "Response",
+        "source" : "3ab9208f8b34aa88.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6812eab1-e418-4624-8638-365db745d369/click",
+      "time" : {
+        "start" : 1587798749114,
+        "stop" : 1587798749258,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/alert/text",
+      "time" : {
+        "start" : 1587798749258,
+        "stop" : 1587798749274,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa1567aea50a0fa0",
+        "name" : "Response",
+        "source" : "aa1567aea50a0fa0.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/alert/accept",
+      "time" : {
+        "start" : 1587798749276,
+        "stop" : 1587798749293,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1587798749300,
+        "stop" : 1587798750291,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51326c717a6a7239",
+        "name" : "Screenshot",
+        "source" : "51326c717a6a7239.png",
+        "type" : "image/png",
+        "size" : 371874
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testClass",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Alert on rediff"
+  }, {
+    "name" : "package",
+    "value" : "alerts testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54d9fb43fc152b44.json",
+  "parameterValues" : [ "chrome" ]
+}

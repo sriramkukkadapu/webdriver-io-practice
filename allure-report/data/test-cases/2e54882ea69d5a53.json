@@ -1,0 +1,46 @@
+{
+  "uid" : "2e54882ea69d5a53",
+  "name" : "testing alerts - dismiss",
+  "fullName" : "alerts testing.testing alerts - dismiss",
+  "historyId" : "2fb126376cf7ce6c94bfea47df114536",
+  "time" : {
+    "start" : 1587798814243,
+    "stop" : 1587798814243,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testClass",
+    "value" : "alerts testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "testing alerts - dismiss"
+  }, {
+    "name" : "package",
+    "value" : "alerts testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e54882ea69d5a53.json",
+  "parameterValues" : [ ]
+}

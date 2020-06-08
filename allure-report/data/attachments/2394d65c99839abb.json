@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@type='button' and @href='https://app.hubspot.com/demo-tour/7633910/reports-dashboard/leader-new-underperform?flowId=new-leader&tourId=leader-underperform-reports']"
+}

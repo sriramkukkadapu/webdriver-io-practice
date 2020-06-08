@@ -1,0 +1,6 @@
+node_modules/
+allure-results/
+allure-report/
+package-lock.json
+selenium-server-standalone-3.141.59.jar
+.DS_Store

@@ -1,0 +1,118 @@
+{
+  "uid" : "1a617eb136c5e9e4",
+  "name" : "main heading displayed in viewPort? ",
+  "fullName" : "blaze page elements handle.main heading displayed in viewPort? ",
+  "historyId" : "703d9e15bc1595775bcd8470f1ea1834",
+  "time" : {
+    "start" : 1587192732270,
+    "stop" : 1587192732782,
+    "duration" : 512
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "blazePage.mainHeader.isDisplayedInViewPort is not a function",
+  "statusTrace" : "TypeError: blazePage.mainHeader.isDisplayedInViewPort is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/blaze test.js:32:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "blazePage.mainHeader.isDisplayedInViewPort is not a function",
+    "statusTrace" : "TypeError: blazePage.mainHeader.isDisplayedInViewPort is not a function\n                    at Context.<anonymous> (/Users/sriramku/Documents/webdriver-io-practice/test/blaze test.js:32:68)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587192732270,
+        "stop" : 1587192732313,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0e861106cc5fb33",
+        "name" : "Request",
+        "source" : "c0e861106cc5fb33.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b19ccb62b4ee948f",
+        "name" : "Response",
+        "source" : "b19ccb62b4ee948f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1587192732327,
+        "stop" : 1587192732781,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fecbc9a34386f59",
+        "name" : "Screenshot",
+        "source" : "2fecbc9a34386f59.png",
+        "type" : "image/png",
+        "size" : 96572
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading displayed in viewPort? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a617eb136c5e9e4.json",
+  "parameterValues" : [ "chrome" ]
+}

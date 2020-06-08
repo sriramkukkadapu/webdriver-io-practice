@@ -1,0 +1,172 @@
+{
+  "uid" : "5b7191f116218d5e",
+  "name" : "enter value in a field",
+  "fullName" : "interaction with web elements.enter value in a field",
+  "historyId" : "90857854d86ffbdb701b836aa747283e",
+  "time" : {
+    "start" : 1589083142952,
+    "stop" : 1589083150928,
+    "duration" : 7976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "interaction with web elements"
+  }, {
+    "name" : "testClass",
+    "value" : "interaction with web elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter value in a field"
+  }, {
+    "name" : "package",
+    "value" : "interaction with web elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eed5a0444e23f31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589082173131,
+        "stop" : 1589082181380,
+        "duration" : 8249
+      }
+    }, {
+      "uid" : "6014ba1b8820db6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588559044180,
+        "stop" : 1588559052288,
+        "duration" : 8108
+      }
+    }, {
+      "uid" : "f5c652b2eb12c68b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588559015600,
+        "stop" : 1588559022865,
+        "duration" : 7265
+      }
+    }, {
+      "uid" : "2dbd8b5feec13e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587179127600,
+        "stop" : 1587179138496,
+        "duration" : 10896
+      }
+    }, {
+      "uid" : "7509de4ca864c7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587178465681,
+        "stop" : 1587178475339,
+        "duration" : 9658
+      }
+    }, {
+      "uid" : "cae95343928785c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587178206663,
+        "stop" : 1587178215727,
+        "duration" : 9064
+      }
+    }, {
+      "uid" : "142cc582bd9b4965",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587177983524,
+        "stop" : 1587177991937,
+        "duration" : 8413
+      }
+    }, {
+      "uid" : "f8d1ded4d5fffe53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587177963706,
+        "stop" : 1587177972584,
+        "duration" : 8878
+      }
+    }, {
+      "uid" : "2fe0f8d3fc82cb49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587177727940,
+        "stop" : 1587177735929,
+        "duration" : 7989
+      }
+    }, {
+      "uid" : "24c7e465cf66471d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587177552101,
+        "stop" : 1587177559750,
+        "duration" : 7649
+      }
+    }, {
+      "uid" : "ce4e7444100f4c9e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"span.a-size-base.a-color-base\" because element wasn't found",
+      "time" : {
+        "start" : 1587177512648,
+        "stop" : 1587177529976,
+        "duration" : 17328
+      }
+    }, {
+      "uid" : "128198892a3941c3",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"span.a-size-base.a-color-base\" because element wasn't found",
+      "time" : {
+        "start" : 1587177450805,
+        "stop" : 1587177468549,
+        "duration" : 17744
+      }
+    }, {
+      "uid" : "f67cc5b4ae38fbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587177269282,
+        "stop" : 1587177275863,
+        "duration" : 6581
+      }
+    }, {
+      "uid" : "ec0ac5834133e787",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587176770651,
+        "stop" : 1587176772650,
+        "duration" : 1999
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b7191f116218d5e.json",
+  "parameterValues" : [ "chrome" ]
+}

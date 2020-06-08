@@ -1,0 +1,56 @@
+{
+  "uid" : "8d3c0191b2d8a9b0",
+  "name" : "click on produc link",
+  "fullName" : "blaze page elements handle.click on produc link",
+  "historyId" : "234318a116f721fa0ae7aa1708cc0923",
+  "time" : {
+    "start" : 1587193408967,
+    "stop" : 1587193413969,
+    "duration" : 5002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on produc link"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d3c0191b2d8a9b0.json",
+  "parameterValues" : [ "chrome" ]
+}

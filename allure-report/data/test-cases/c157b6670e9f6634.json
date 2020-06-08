@@ -1,0 +1,119 @@
+{
+  "uid" : "c157b6670e9f6634",
+  "name" : "perform logout",
+  "fullName" : "handle application login.perform logout",
+  "historyId" : "8b691b696a35bd1176746ae5cb2f1066",
+  "time" : {
+    "start" : 1587202307574,
+    "stop" : 1587202308318,
+    "duration" : 744
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587202307575,
+        "stop" : 1587202307591,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68f3cfb145b4f450",
+        "name" : "Request",
+        "source" : "68f3cfb145b4f450.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b2f59d36853a4b3e",
+        "name" : "Response",
+        "source" : "b2f59d36853a4b3e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/90f1df9c-f438-4fa5-b6bb-418d406e6567/click",
+      "time" : {
+        "start" : 1587202307593,
+        "stop" : 1587202308318,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "handle application login"
+  }, {
+    "name" : "testClass",
+    "value" : "handle application login"
+  }, {
+    "name" : "testMethod",
+    "value" : "perform logout"
+  }, {
+    "name" : "package",
+    "value" : "handle application login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ace6d080f1e9063f",
+      "status" : "broken",
+      "statusDetails" : "logoutPage.clickLogOutBtn is not a function",
+      "time" : {
+        "start" : 1587202260879,
+        "stop" : 1587202261274,
+        "duration" : 395
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c157b6670e9f6634.json",
+  "parameterValues" : [ "chrome" ]
+}

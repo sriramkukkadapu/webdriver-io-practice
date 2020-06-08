@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n                  (Session info: chrome=81.0.4044.113)",
+      "children" : [ {
+        "name" : "move to element",
+        "uid" : "77b765443fcf131e",
+        "parentUid" : "583bb4ab4ce737dd46f09bc11c2f4fe0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587216378974,
+          "stop" : 1587216419076,
+          "duration" : 40102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "583bb4ab4ce737dd46f09bc11c2f4fe0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

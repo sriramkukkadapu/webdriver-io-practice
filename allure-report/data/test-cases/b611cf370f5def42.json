@@ -1,0 +1,141 @@
+{
+  "uid" : "b611cf370f5def42",
+  "name" : "main heading displayed? ",
+  "fullName" : "blaze page elements handle.main heading displayed? ",
+  "historyId" : "8dd0e8abf5fd9b02b2d4542dad97d2dd",
+  "time" : {
+    "start" : 1587193392584,
+    "stop" : 1587193394721,
+    "duration" : 2137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1587193392715,
+        "stop" : 1587193394680,
+        "duration" : 1965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69a89519926bb83b",
+        "name" : "Request",
+        "source" : "69a89519926bb83b.json",
+        "type" : "application/json",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1587193394680,
+        "stop" : 1587193394702,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12ed7f987a8b9e8a",
+        "name" : "Request",
+        "source" : "12ed7f987a8b9e8a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "7aa6860e5a62b7a6",
+        "name" : "Response",
+        "source" : "7aa6860e5a62b7a6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1587193394706,
+        "stop" : 1587193394720,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4961ee343e473c60",
+        "name" : "Request",
+        "source" : "4961ee343e473c60.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "d82f878952d22fd3",
+        "name" : "Response",
+        "source" : "d82f878952d22fd3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "main heading displayed? "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b611cf370f5def42.json",
+  "parameterValues" : [ "chrome" ]
+}
