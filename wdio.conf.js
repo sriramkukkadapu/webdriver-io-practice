@@ -4,7 +4,7 @@ const ENV = process.env.ENV
 if(!ENV || !['qa','dev','stage','prod'].includes(ENV))
 {
     console.log('Please provide correct environment => ENV=qa|dev|stage|prod')
-    process.exit()
+    //process.exit()
 }
 
 exports.config = {
